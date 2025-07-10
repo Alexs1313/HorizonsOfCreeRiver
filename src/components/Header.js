@@ -24,7 +24,7 @@ const Header = ({ title, screen }) => {
       {title === 'Title' && (
         <View style={styles.headerTitleWrap}>
           <Image
-            source={require('../assets/images/logo.png')}
+            source={require('../assets/images/newLogo.jpg')}
             style={styles.imageAbsolute}
           />
           <Text style={styles.title}>{screen}</Text>
@@ -34,7 +34,7 @@ const Header = ({ title, screen }) => {
       {title !== 'Title' && title !== 'Info' && (
         <View style={styles.headerWrapp}>
           <Image
-            source={require('../assets/images/logo.png')}
+            source={require('../assets/images/newLogo.jpg')}
             style={styles.image}
           />
           <TouchableOpacity
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  image: { width: 83, height: 83 },
+  image: { width: 83, height: 83, borderRadius: 12 },
   imageAbsolute: {
     width: 83,
     height: 83,

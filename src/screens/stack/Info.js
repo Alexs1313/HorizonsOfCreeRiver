@@ -31,7 +31,7 @@ const Info = () => {
           </TouchableOpacity>
           <View style={styles.imagesWrapper}>
             <Image
-              source={require('../../assets/images/logo.png')}
+              source={require('../../assets/images/newLogo.jpg')}
               style={styles.logo}
             />
             <View style={styles.imageContainer}>
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
   logo: {
     width: 172,
     height: 169,
+    borderRadius: 12,
   },
   imageContainer: {
     width: 172,

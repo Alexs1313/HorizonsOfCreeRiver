@@ -72,7 +72,7 @@ export default function Onboarding() {
 
           <View style={[styles.bottomContainer, { minHeight }]}>
             <Image
-              source={require('../../assets/images/logo.png')}
+              source={require('../../assets/images/newLogo.jpg')}
               style={styles.logo}
             />
             <AnimatedView friction={8} tension={100} duration={1200}>
@@ -121,7 +121,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   textWrapper: { alignItems: 'center', minHeight: 150 },
-  logo: { position: 'absolute', top: -53 },
+  logo: {
+    position: 'absolute',
+    top: -53,
+    width: 97,
+    height: 97,
+    borderRadius: 12,
+  },
   gradient: { position: 'absolute', top: '25%', width: '100%' },
   image: { marginTop: 50 },
   bottomContainer: {

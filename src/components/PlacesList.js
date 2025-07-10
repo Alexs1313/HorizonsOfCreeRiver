@@ -227,6 +227,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#202224',
     borderRadius: 22,
     paddingHorizontal: 26,
+    fontFamily: 'Raleway-Bold',
+    color: '#fff',
+    fontSize: 15,
   },
   underline: {
     width: '87.5%',
